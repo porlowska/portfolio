@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Card = () => {
     return (
       <div class="max-w-[350px] bg-gray-700 rounded overflow-hidden shadow-lg">
@@ -24,6 +26,27 @@ const Card = () => {
           <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
             #winter
           </span>
+          <div className="flex flex-row justify-end gap-2">
+          <Link href="https://github.com/porlowska" passHref>
+          <img src="/favicons/github.svg" alt="GitHub" width={24} height={24} />
+        </Link>
+        <Link href="http://www.linkedin.com/in/polly-orlowska" passHref>
+          <img
+            src="/favicons/linkedin.svg"
+            alt="LinkedIn"
+            width={24}
+            height={24}
+          />
+        </Link>
+        <Link href="https://wa.me/447494532324" passHref>
+          <img
+            src="/favicons/deployed.svg"
+            alt="Deployed website"
+            width={24}
+            height={24}
+          />
+        </Link>
+        </div>
         </div>
       </div>
   );

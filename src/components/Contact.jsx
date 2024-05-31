@@ -1,13 +1,41 @@
+import Form from "./Form";
+import Link from "next/link";
+import Image from "next/image";
+
 const Contact= () => {
     return (
-      <section className="bg-black text-white10">
-      <h2 className="font-heading text-3xl mb-4">Contact Me</h2>
-      <p className="font-body">Feel free to reach out for collaborations or just a friendly hello!</p>
-      {/* You can add a form here or just list your contact information */}
-      <div className="space-y-2">
-      <p><strong>Email:</strong> polly.orlowska@gmailc.com</p>
-      <p><strong>Phone:</strong> +447494532324</p>
+      <section className="bg-secondary text-primary flex flex-col md:flex-row justify-between">
+      <div>
+        <h2 className="font-subheading text-3xl m-4 text-center">Get in touch</h2>
+        <div className="flex flex-row justify-end gap-2">
+        <Link href="https://github.com/porlowska" passHref>
+          <img src="/favicons/github.svg" alt="GitHub" width={24} height={24} />
+        </Link>
+        <Link href="http://www.linkedin.com/in/polly-orlowska" passHref>
+          <img
+            src="/favicons/linkedin.svg"
+            alt="LinkedIn"
+            width={24}
+            height={24}
+          />
+        </Link>
+        <Link href="https://wa.me/447494532324" passHref>
+          <img
+            src="/favicons/whatsapp.svg"
+            alt="WhatsApp"
+            width={24}
+            height={24}
+          />
+        </Link>
+        <Link href="mailto:polly.orlowska@gmail.com" passHref>
+          <img src="/favicons/mail.svg" alt="Email" width={24} height={24} />
+        </Link>
+        </div>
+        <Link href="/" passHref>
+        <Image src="/logo/logo.png" alt="Portfolio" width={225} height={75} />
+      </Link>
       </div>
+      <Form/>
       </section>
       );
       };

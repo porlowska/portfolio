@@ -53,5 +53,3 @@ const AboutMe = () => {
 
 export default AboutMe;
 
-// we want to devide about me in two column  right with text left with photos, on mobole one column only
-//Pic of me?
