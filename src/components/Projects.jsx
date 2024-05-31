@@ -1,9 +1,15 @@
+import Card from "./Card";
+
 const Projects = () => {
     return (
-      <section className="bg-secondary text-white p-10">
+      <section className=" text-white p-10 text-center">
         <h2 className="font-heading text-3xl mb-4">Projects</h2>
-        {/* You can make this a grid of projects or a list */}
-        <p className="font-body">Here are some of my most recent works.</p>
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center" >
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+          </div>
       </section>
     );
   };

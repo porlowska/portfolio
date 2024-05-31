@@ -13,7 +13,7 @@ module.exports = {
         background: '#000000',
       },
       fontFamily: {
-        body: ['Avenir Next LT Pro', 'sans-serif'],
+        bodyLight: ['Avenir Next LT Pro', 'sans-serif'],
         subheading: ['Maison Neue', 'sans-serif'],
         heading: ['Maison Neue Extended', 'sans-serif'],
       }
