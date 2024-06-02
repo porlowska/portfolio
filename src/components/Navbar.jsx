@@ -1,6 +1,7 @@
 "use client";
 
 import { Navbar, Button } from "flowbite-react";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
