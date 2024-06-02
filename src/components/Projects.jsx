@@ -4,7 +4,7 @@ import data from "../../public/data";
 
 
 export default function Projects() {
-  console.log(data)
+
     return (
       <section className=" text-white p-10 text-center bg-background">
         <h2 className="font-maissub text-5xl mb-4 p-4"><span className="text-secondary text-shadow">My</span> Projects</h2>
