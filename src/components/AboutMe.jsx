@@ -24,7 +24,7 @@ const AboutMe = () => {
             alt="Certificate Front end web development"
           />
         </div>
-        <div className="flex flex-col flex-1 p-3 max-w-[500px]justify-center text-center font-aven">
+        <div className="flex flex-col flex-1 p-3 md:max-w-[500px] justify-center text-center font-aven">
           <p className="pb-6 pt-6">
             I’m Polly Orlowska, a front-end web developer and engeneer based in
             London.
