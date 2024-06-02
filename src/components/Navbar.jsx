@@ -13,39 +13,38 @@ const NavBar = () => {
         />
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button.Group>
-          <Button href="https://github.com/porlowska" className="bg-background" >
+        
+      
+          <Link href="https://github.com/porlowska" passHref>
             <img
               src="/favicons/github.svg"
               alt="GitHub"
-              width={24}
-              height={24}
+              width={30}
+              height={30}
             />
-          </Button>
-
-          <Button href="http://www.linkedin.com/in/polly-orlowska"
-          className="bg-background" >
+          </Link>
+          <Link href="http://www.linkedin.com/in/polly-orlowska" passHref>
             <img
               src="/favicons/linkedin.svg"
               alt="LinkedIn"
-              width={24}
-              height={24}
+              width={30}
+              height={30}
             />
-          </Button>
-          <Button href="https://wa.me/447494532324"
-          className="bg-background">
+          </Link>
+          <Link href="https://wa.me/447494532324" passHref>
             <img
               src="/favicons/whatsapp.svg"
               alt="WhatsApp"
-              width={24}
-              height={24}
+              width={30}
+              height={30}
             />
-          </Button>
-          <Button href="mailto:polly.orlowska@gmail.com"
-          className="bg-background">
-            <img src="/favicons/mail.svg" alt="Email" width={24} height={24} />
-          </Button>
-        </Button.Group>
+          </Link>
+          <Link href="mailto:polly.orlowska@gmail.com" passHref>
+            <img src="/favicons/mail.svg" alt="Email" width={30} height={30} />
+          </Link>
+        
+      
+        
 
         <Navbar.Toggle className="focus:bg-background  focus:ring-black hover:color-secondary" />
       </div>
