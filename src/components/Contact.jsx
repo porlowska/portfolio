@@ -41,7 +41,7 @@ const Contact = () => {
             <img src="/favicons/mail.svg" alt="Email" width={30} height={30} />
           </Link>
         </div>
-        <Link href="/" passHref className="pt-2">
+        <Link href="#" passHref className="pt-2">
           <Image src="/logo/logo.png" alt="Portfolio" width={225} height={75} />
         </Link>
       </div>
