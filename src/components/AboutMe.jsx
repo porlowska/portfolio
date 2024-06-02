@@ -6,7 +6,7 @@ const AboutMe = () => {
       <h2 className=" text-center font-heading text-5xl mb-4 p-4">
         About <span className="text-secondary">Me</span>
       </h2>
-      <div className="flex flex-col md:flex-row justify-evenly">
+      <div className="flex flex-col md:flex-row">
         <div>
           
           <Image 
@@ -17,14 +17,14 @@ const AboutMe = () => {
             alt="Picture of Polly"
           />
           <Image
-          className="rounded p-3 m-auto"
+          className="rounded-lg p-3 m-auto"
             src="/pic/certificate.png"
             width={500}
             height={375}
             alt="Certificate Front end web development"
           />
         </div>
-        <div className=" flex flex-col flex-1 p-3 max-w-[500px] justify-center text-center">
+        <div className="flex flex-col flex-1 p-3 max-w-[500px]justify-center text-center ">
           <p className="font-body pb-6 pt-6">
             I’m Polly Orlowska, a front-end web developer and engeneer based in
             London.
@@ -49,9 +49,9 @@ const AboutMe = () => {
           </p>
 
           <video className="w-[200px] m-auto"  autoPlay loop preload="auto">
-        <source src="/videos/tabs.mp4" type="video/mp4" />
-        Your browser does not support videos.
-      </video>
+            <source src="/videos/tabs.mp4" type="video/mp4" />
+            Your browser does not support videos.
+             </video>
 
         </div>
       </div>

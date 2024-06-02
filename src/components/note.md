@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Card = () => {
+const ProjectCard = () => {
     return (
       <div class="max-w-[350px] bg-gray-700 rounded overflow-hidden shadow-lg">
         <img
