@@ -15,7 +15,7 @@ export default function Home() {
       <main className="flex-grow">
         <Welcome />
         <div id="about">
-          <AboutMe />s
+          <AboutMe />
         </div>
         <div id="projects">
           <Projects />
