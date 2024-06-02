@@ -1,5 +1,5 @@
 // src/pages/index.js
-// import NavBar from '../components/NavBar';
+
 import NavComponent from '../components/NavComponent';
 import Welcome from '../components/Welcome';
 import AboutMe from '../components/AboutMe';
