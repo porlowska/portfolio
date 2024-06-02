@@ -4,7 +4,7 @@ const Welcome = () => {
 
       {/* TEXT */}
       <div  className="flex-none my-2 md:py-4 md:pl-10 lg:pl-20 xl:pl-30 md:justify-between"> 
-      <h2 className="font-maissub text-secondary text-5xl mb-4 drop-shadow-xl shadow-primary">
+      <h2 className="font-maissub text-secondary text-5xl mb-4 drop-shadow-xl shadow-primary text-shadow">
         Hello!
       </h2>
       <h2 className="text-primary font-maissub text-4xl md:text-5xl lg:text-6xl ">How are you today?</h2>

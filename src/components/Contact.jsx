@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Contact= () => {
     return (
-      <section className="bg-secondary text-primary flex flex-col md:flex-row justify-between">
+      <section className=" bg-gradient-to-b from-background  via-secondary  to-background text-primary flex flex-col md:flex-row justify-between">
       <div>
         <h2 className="font-maissub text-3xl m-4 text-center">Get in touch</h2>
         <div className="flex flex-row justify-end gap-2">
