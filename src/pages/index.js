@@ -1,5 +1,5 @@
 // src/pages/index.js
-import NavBar from '../components/NavBar';
+// import NavBar from '../components/NavBar';
 import Welcome from '../components/Welcome';
 import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <NavBar />
+      {/* <NavBar /> */}
       <main className="flex-grow">
         <Welcome />
         <div id="about">
