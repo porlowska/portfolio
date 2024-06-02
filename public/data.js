@@ -4,7 +4,7 @@ const data = [
         description: "Led Wimbledon Pets' website development from start to finish using Wix, focusing on lead generation and brand awareness. The site features service listings, testimonials, and an Instagram feed, optimised for all devices. Enhanced SEO led to increased visibility and sales, receiving praise for its professionalism. Achieved 60% marketing cost savings.",
         src: "pic/wimbledon-pets.png",
         links: {
-            github: "/",
+            github: "https://wimbledonpets.wixsite.com/wimbledon-pets",
             linkedin: "https://www.linkedin.com/posts/polly-orlowska_it-took-me-some-time-to-finally-post-about-activity-7157833224155484161-Pemr?utm_source=share&utm_medium=member_desktop",
             deployed: "https://wimbledonpets.wixsite.com/wimbledon-pets"
         }

@@ -5,7 +5,7 @@ import { Navbar, Button } from "flowbite-react";
 const NavBar = () => {
   return (
     <Navbar fluid className="bg-background">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="#">
         <img
           src="/logo/logo.png"
           className="mr-3 h-[70px] sm:h-[95px] lg:h-[120px]"
