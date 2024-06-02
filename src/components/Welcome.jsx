@@ -16,7 +16,7 @@ const Welcome = () => {
       {/* VIDEO */}
       </div>
       <div className="lg:pr-20 xl:pr-30 2xl:pr-40 " >
-      <video className="w-[250px] md:w-[340px] lg:w-[500px] xl:w-[600px] md:mt-[20px]"  controls playsinline muted autoPlay loop preload="auto">
+      <video className="w-[250px] md:w-[340px] lg:w-[500px] xl:w-[600px] md:mt-[20px]" playsinline muted autoPlay loop preload="auto">
         <source src="/videos/PCP.mp4" type="video/mp4" />
         Your browser does not support videos.
       </video>
