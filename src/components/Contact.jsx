@@ -6,7 +6,7 @@ const Contact= () => {
     return (
       <section className="bg-secondary text-primary flex flex-col md:flex-row justify-between">
       <div>
-        <h2 className="font-subheading text-3xl m-4 text-center">Get in touch</h2>
+        <h2 className="font-maissub text-3xl m-4 text-center">Get in touch</h2>
         <div className="flex flex-row justify-end gap-2">
         <Link href="https://github.com/porlowska" passHref>
           <img src="/favicons/github.svg" alt="GitHub" width={24} height={24} />

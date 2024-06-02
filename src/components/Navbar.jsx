@@ -52,19 +52,19 @@ const NavBar = () => {
       <Navbar.Collapse className="focus:bg-background hover:text-black">
         <Navbar.Link
           href="#about"
-          className="text-primary font-body font-semibold hover:text-secondary"
+          className="text-primary  md:text-xl font-aven font-semibold hover:text-secondary"
         >
           About
         </Navbar.Link>
         <Navbar.Link
           href="#projects"
-          className="text-primary font-body font-semibold hover:text-secondary"
+          className="text-primary md:text-xl font-aven font-semibold hover:text-secondary"
         >
           Projects
         </Navbar.Link>
         <Navbar.Link
           href="#contact"
-          className="text-primary font-body font-semibold hover:text-secondary"
+          className="text-primary md:text-xl font-aven font-semibold hover:text-secondary"
         >
           Contact Me
         </Navbar.Link>

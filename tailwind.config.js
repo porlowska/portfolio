@@ -17,9 +17,9 @@ module.exports = {
         background: '#000000',
       },
       fontFamily: {
-        bodyLight: ['Avenir Next LT Pro', 'sans-serif'],
-        subheading: ['Maison Neue', 'sans-serif'],
-        heading: ['Maison Neue Extended'],
+        aven: ['Avenir Next LT Pro', 'sans-serif'],
+        maissub: ['Maison Neue', 'sans-serif'],
+        mais: ['Maison Neue Extended'],
       }
     },
   },

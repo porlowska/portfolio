@@ -13,7 +13,7 @@ const ProjectCard = () => {
       <h5 className="text-2xl font-bold tracking-tight text-primary">
         Noteworthy technology acquisitions 2021
       </h5>
-      <p className="font-normal text-primary">
+      <p className="font-aven text-primary">
         Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
       </p>
 
