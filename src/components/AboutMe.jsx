@@ -48,7 +48,7 @@ const AboutMe = () => {
             Responsive Web Design
           </p>
 
-          <video className="w-[200px] m-auto"  controls playsinline muted autoPlay loop preload="auto">
+          <video className="w-[200px] m-auto"  playsinline muted autoPlay loop preload="auto">
             <source src="/videos/tabs.mp4" type="video/mp4" />
             Your browser does not support videos.
              </video>
