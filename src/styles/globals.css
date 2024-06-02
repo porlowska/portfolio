@@ -71,3 +71,7 @@ body {
     text-wrap: balance;
   }
 }
+
+#social{
+  padding: 0.25rem !important;
+}
