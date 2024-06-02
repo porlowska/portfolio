@@ -14,7 +14,7 @@ const NavBar = () => {
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Button.Group>
-          <Button href="https://github.com/porlowska" className="bg-background" id="social" >
+          <Button href="https://github.com/porlowska" className="bg-background" >
             <img
               src="/favicons/github.svg"
               alt="GitHub"
@@ -24,7 +24,7 @@ const NavBar = () => {
           </Button>
 
           <Button href="http://www.linkedin.com/in/polly-orlowska"
-          className="bg-background" id="social">
+          className="bg-background" >
             <img
               src="/favicons/linkedin.svg"
               alt="LinkedIn"
