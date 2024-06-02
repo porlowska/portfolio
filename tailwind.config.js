@@ -19,7 +19,7 @@ module.exports = {
       fontFamily: {
         bodyLight: ['Avenir Next LT Pro', 'sans-serif'],
         subheading: ['Maison Neue', 'sans-serif'],
-        heading: ['Maison Neue Extended', 'sans-serif'],
+        heading: ['Maison Neue Extended'],
       }
     },
   },

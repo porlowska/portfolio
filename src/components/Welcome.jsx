@@ -1,20 +1,27 @@
 const Welcome = () => {
   return (
-    <section className="p-10 flex flex-col md:flex-row justify-between">
-      <div  className="flex-none"> 
+    <section className="p-10 flex flex-col sm:flex-row items-center sm:justify-between bg-background">
+
+      {/* TEXT */}
+      <div  className="flex-none my-2 md:py-4 md:pl-10 lg:pl-20 xl:pl-30 md:justify-between"> 
       <h2 className="font-heading text-secondary text-4xl mb-4 drop-shadow-xl">
         Hello!
       </h2>
-      <h2 className="font-heading text-4xl mb-4">How are you today?</h2>
-      <h1 className="font-body mb-4">
+      <h2 className="text-primary font-heading text-4xl md:text-5xl lg:text-6xl ">How are you today?</h2>
+      <h1 className="font-body mb-4 text-primary">
         My name is <span className="text-secondary">Polly</span>, welcome to my
         portfolio.{" "}
       </h1>
+
+      {/* VIDEO */}
       </div>
-      <video className=" w-[250px] md:w-[400px] lg:w-[700px] xl:w-[900px] aspect-square "  autoPlay loop preload="auto">
+      <div className="lg:pr-20 xl:pr-30 2xl:pr-40" >
+      <video className="w-[250px] md:w-[340px] lg:w-[500px] xl:w-[600px]"  autoPlay loop preload="auto">
         <source src="/videos/PCP.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+        Your browser does not support videos.
       </video>
+      </div>
+
     </section>
   );
 };

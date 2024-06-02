@@ -8,7 +8,7 @@ const NavBar = () => {
       <Navbar.Brand href="/">
         <img
           src="/logo/logo.png"
-          className="mr-3 h-[60px] sm:h-[95px] lg:h-[120px]"
+          className="mr-3 h-[70px] sm:h-[95px] lg:h-[120px]"
           alt="Portfolio logo"
         />
       </Navbar.Brand>
