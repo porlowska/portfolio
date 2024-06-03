@@ -6,7 +6,7 @@ const AboutMe = () => {
       <h2 className=" text-center font-maissub text-5xl mb-4 p-4">
         About <span className="text-secondary text-shadow">Me</span>
       </h2>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col justify-evenly md:flex-row">
         <div>
           
           <Image 
@@ -24,7 +24,7 @@ const AboutMe = () => {
             alt="Certificate Front end web development"
           />
         </div>
-        <div className="flex flex-col flex-1 p-3 md:max-w-[500px] justify-center text-center font-aven">
+        <div className="flex flex-col flex-1 p-3 md:max-w-[600px] justify-center text-center font-aven">
           <p className="pb-6 pt-6">
             I’m Polly Orlowska, a front-end web developer and engeneer based in
             London.
@@ -42,10 +42,11 @@ const AboutMe = () => {
           If you’re looking for someone who understands the heartbeat of a business and can translate it into a compelling web presence, you’ve found the right person.
           </p>
           <p>
-            Software languages: HTML5, CSS3, JavaScript
-            Libraries/Frameworks:jQuery, Bootstrap, TailwindCSS, ReactJS, NextJS
-            Tools:Git, GitHub Web Design:Wix Website Builder, SEO, UX/UI Design,
-            Responsive Web Design
+            Software languages: HTML5, CSS3, JavaScript <br></br>
+            Libraries/Frameworks:jQuery, Bootstrap, TailwindCSS, ReactJS, NextJS <br></br>
+            Tools:Git, GitHub <br></br>
+            Web Design:Wix Website Builder, SEO, UX/UI Design,
+            Responsive Web Design, API
           </p>
 
           <video className="w-[200px] m-auto"  playsinline muted autoPlay loop preload="auto">
