@@ -12,11 +12,9 @@ const Form = () => {
     return (
     <form className=" p-10 min-w-[350px] md:min-w-[500px] md:max-w-[500px]"
       method="POST" 
-            data-netlify="true"
+            netlify
             name="contact"
     >
-
-<input type="hidden" name="form-name" value="contact" />
       <div>
         <div className="mb-2 block">
           <Label htmlFor="fullName" value="Full Name" className="text-primary ml-3"/>
