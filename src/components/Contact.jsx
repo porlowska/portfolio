@@ -1,3 +1,4 @@
+"use client"
 import Form from "./Form";
 import Link from "next/link";
 import Image from "next/image";
