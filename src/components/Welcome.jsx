@@ -10,7 +10,7 @@ const Welcome = () => {
       <h2 className="text-primary font-maissub text-4xl md:text-5xl lg:text-6xl ">How are you today?</h2>
       <h1 className="font-aven mb-4 text-primary">
         My name is <span className="text-secondary">Polly</span>, welcome to my
-        portfolio.{" "}
+        portfolio.
       </h1>
 
       {/* VIDEO */}
