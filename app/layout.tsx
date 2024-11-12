@@ -1,23 +1,22 @@
 import type { Metadata } from "next";
-import { Barlow } from "next/font/google";
-import "./globals.css";
-
-const barlow = Barlow({ weight: ["200", "500"], subsets: ["latin"] });
+import "./style/globals.css";
+import { nunito, manrope } from "./style/fonts";
 
 export const metadata: Metadata = {
-  title: "Wimbledon Pets",
-  description:
-    "Dog Care services in Lonodon - Dog Sitting, House Sitting, Dog Boaring, and Dog Training",
+  title: "PORLOWSKA portfolio",
+  description: "Professional Portfolio of a web developer and web designer",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
-    <html lang="en">
-      <body className={`bg-whiteish ${barlow.className}`}>{children}</body>
+    <html lang="en" className={`${nunito.variable} ${manrope.variable}`}>
+      <body className={"bg-whiteish font-aven"}>{children}</body>
     </html>
   );
-}
+};
+
+export default RootLayout;

@@ -2,21 +2,17 @@ import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./_components/**/*.{js,ts,jsx,tsx}",
+    "./style/**/*.{css,ts}",
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#FFFFFF",
-        secondary: "#D161BB",
-        background: "#000000",
-      },
+      colors: {},
       fontFamily: {
-        aven: ["Avenir Next LT Pro", "sans-serif"],
-        maissub: ["Maison Neue", "sans-serif"],
-        mais: ["Maison Neue Extended"],
+        nunito: ["var(--font-nunito)", "sans-serif"],
+        manrope: ["var(--font-manrope)", "sans-serif"],
       },
     },
   },
