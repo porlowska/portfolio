@@ -1,4 +1,11 @@
+"use client";
+import Banner from "./_components/Banner/Banner";
+
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <>
+      <Banner />
+    </>
+  );
 };
 export default App;

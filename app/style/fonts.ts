@@ -8,7 +8,7 @@ export const nunito = Nunito({
 });
 
 export const manrope = Manrope({
-  weight: ["600", "700", "800"], // semibold, bold, extrabold
+  weight: ["300", "600", "700", "800"], // semibold, bold, extrabold
   subsets: ["latin"],
   display: "swap",
   variable: "--font-manrope",
