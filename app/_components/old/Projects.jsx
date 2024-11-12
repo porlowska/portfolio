@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import data from "../../public/data";
+import data from "../../../public/data";
 
 
 
