@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./style/globals.css";
 import { nunito, manrope } from "./style/fonts";
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
   title: "PORLOWSKA portfolio",
@@ -14,7 +16,11 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={`${nunito.variable} ${manrope.variable}`}>
-      <body className={"bg-whiteish font-aven"}>{children}</body>
+      <body className={"bg-whiteish"}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 };

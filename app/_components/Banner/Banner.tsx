@@ -6,11 +6,11 @@ import ImageAnim from "./ImageAnim";
 
 const Banner = () => {
   return (
-    <div className="w-full h-screen bg-black flex items-center justify-center overflow-hidden relative">
+    <div className="w-full h-screen bg-blackish flex items-center justify-center overflow-hidden relative">
       <ImageAnim />
 
       {/* Text Overlay */}
-      <div className="relative z-10 text-center text-white font-manrope opacity-100">
+      <div className="relative z-10 text-center text-whiteish font-manrope opacity-100">
         <h1 className="hidden">
           Polly Orlowska - frontend development, web design
         </h1>

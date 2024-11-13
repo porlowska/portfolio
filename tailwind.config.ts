@@ -9,7 +9,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        whiteish: "#DBDBDB",
+        blackish: "#121212",
+        primary: "#d1136f",
+        secondary: "#f5bb1d",
+      },
       fontFamily: {
         nunito: ["var(--font-nunito)", "sans-serif"],
         manrope: ["var(--font-manrope)", "sans-serif"],
