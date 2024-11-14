@@ -1,7 +1,7 @@
 import { Manrope, Nunito } from "next/font/google";
 
 export const nunito = Nunito({
-  weight: ["300", "400", "500"], // light, regular, medium
+  weight: ["300", "400", "500", "600"], // light, regular, medium
   subsets: ["latin"],
   display: "swap",
   variable: "--font-nunito",

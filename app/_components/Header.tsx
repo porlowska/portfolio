@@ -7,6 +7,7 @@ import Logo from "./Logo";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import SocialLinks from "./SocialLinks";
+import { socials } from "../_data/data";
 
 const navigation = [
   { name: "Home", href: "#" },
@@ -51,10 +52,7 @@ const Header = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <SocialLinks
-            iconClassName={"h-6 w-6 text-whiteish hover:text-secondary"}
-            divClassName="gap-x-6"
-          />
+          <SocialLinks divClassName="gap-x-6 text-whiteish" data={socials} />
         </div>
       </nav>
 
@@ -92,7 +90,7 @@ const Header = () => {
                 ))}
               </div>
               <div className="py-6">
-                <SocialLinks iconClassName={"h-8 w-8 gap-6 text-primary"} />
+                <SocialLinks data={socials} />
               </div>
             </div>
           </div>

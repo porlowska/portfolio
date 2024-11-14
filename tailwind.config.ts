@@ -13,7 +13,7 @@ export default {
         whiteish: "#DBDBDB",
         blackish: "#121212",
         primary: "#d1136f",
-        secondary: "#f5bb1d",
+        secondary: "#EBAC00",
       },
       fontFamily: {
         nunito: ["var(--font-nunito)", "sans-serif"],

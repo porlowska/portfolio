@@ -16,7 +16,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={`${nunito.variable} ${manrope.variable}`}>
-      <body className={"bg-whiteish"}>
+      <body className={"bg-gradient-to-b from-blackish to-whiteish"}>
         <Header />
         {children}
         <Footer />

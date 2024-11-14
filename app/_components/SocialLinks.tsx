@@ -1,18 +1,20 @@
 "use client";
 import Link from "next/link";
-import { socials } from "../_data/socials";
 
-type linksProps = {
+type LinksProps = {
   divClassName?: string;
-  iconClassName: string;
+  data: {
+    name: string;
+    href: string;
+    icon: any;
+  }[];
 };
-const SocialLinks = ({ divClassName, iconClassName }: linksProps) => {
-  let socialLinks = socials;
 
+const SocialLinks = ({ divClassName, data }: LinksProps) => {
   return (
     <>
       <div className={`${divClassName} flex justify-center gap-x-4`}>
-        {socialLinks.map((item) => (
+        {data.map((item) => (
           <Link
             key={item.name}
             href={item.href}
@@ -20,7 +22,10 @@ const SocialLinks = ({ divClassName, iconClassName }: linksProps) => {
             rel="noreferrer"
           >
             <span className="sr-only">{item.name}</span>
-            <item.icon aria-hidden="true" className={iconClassName} />
+            <item.icon
+              aria-hidden="true"
+              className={"h-6 w-6 gap-2 hover:text-secondary"}
+            />
           </Link>
         ))}
       </div>
