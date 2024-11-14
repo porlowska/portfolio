@@ -7,7 +7,10 @@ import PopModal from "../PopModal";
 const Projects = () => {
   const [openProject, setOpenProject] = useState<string | null>(null);
   return (
-    <div className="bg-gray-50 py-12 font-nunito relative isolate">
+    <div
+      className="bg-gray-50 py-12 font-nunito relative isolate"
+      id="projects"
+    >
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
