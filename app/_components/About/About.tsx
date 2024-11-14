@@ -1,5 +1,5 @@
-import Description from "./Description";
 import Into from "./Intro";
+import Description from "./Description";
 
 const About = () => {
   return (
