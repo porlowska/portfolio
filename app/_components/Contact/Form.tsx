@@ -1,17 +1,10 @@
-
 import toast, { Toaster } from "react-hot-toast";
 import Input from "./form/Input";
 import Textarea from "./form/Textarea";
 
 const Form = () => {
   return (
-    <form
-      data-netlify="true"
-      name="book-now"
-      action="#"
-      method="POST"
-      className="px-6  lg:px-8 "
-    >
+    <form name="book-now" action="#" method="POST" className="px-6  lg:px-8 ">
       <input type="hidden" name="book-now" value="book-now" />
       <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
