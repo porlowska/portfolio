@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { projects } from "../../_data/data";
 import ProjectCard from "./ProjectCards";
-import PopModal from "../PopModal";
+import PopModal from "./PopModal";
 
 const Projects = () => {
   const [openProject, setOpenProject] = useState<string | null>(null);

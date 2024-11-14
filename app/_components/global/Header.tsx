@@ -7,10 +7,8 @@ import Logo from "./Logo";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import SocialLinks from "./SocialLinks";
-import { socials } from "../_data/data";
-import { navigation } from "../_data/nav";
-
-
+import { socials } from "../../_data/data";
+import { navigation } from "../../_data/nav";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

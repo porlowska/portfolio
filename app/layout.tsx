@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./style/globals.css";
 import { nunito, manrope } from "./style/fonts";
-import Header from "./_components/Header";
-import Footer from "./_components/Footer";
+import Header from "./_components/global/Header";
+import Footer from "./_components/global/Footer";
 
 export const metadata: Metadata = {
   title: "PORLOWSKA portfolio",

@@ -1,7 +1,7 @@
 "use client";
-import { socials } from "../_data/data";
+import { socials } from "../../_data/data";
 import SocialLinks from "./SocialLinks";
-import { navigation } from "../_data/nav";
+import { navigation } from "../../_data/nav";
 import Logo from "./Logo";
 
 const Footer = () => {

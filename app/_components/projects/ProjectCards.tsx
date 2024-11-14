@@ -1,5 +1,5 @@
 "use client";
-import SocialLinks from "../SocialLinks";
+import SocialLinks from "../global/SocialLinks";
 
 type ProjectCardProps = {
   onClick: () => void;
