@@ -46,12 +46,37 @@ export const socials = [
 
 export const projects = [
   {
+    name: "Portfolio Banner",
+    shortBody:
+      "An animated banner created with Framer for React, showcasing creativity and animation skills in web design.",
+    longBody:
+      "The Portfolio Banner project is my first venture into creating dynamic animations using Framer with React. This animated banner, intended for use as a portfolio highlight, showcases interactive and animated design, adding a modern twist to web interfaces. The project pushed my skills in frontend animation and honed my understanding of how animations can improve user experience and engagement. This banner not only demonstrates my technical skills but also reflects my passion for merging creativity with functionality in web design.",
+    imageUrl: "/pic/portfolio.png",
+    links: [
+      {
+        name: "Portfolio",
+        href: "https://porlowska.dev",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/porlowska/portfolio",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "https://www.linkedin.com/posts/polly-orlowska_webdesign-animation-react-activity-7262159876913557505-dIRS?utm_source=share&utm_medium=member_desktop",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
     name: "PO Game Board",
     shortBody:
       "An interactive gaming platform featuring classic games like Snake, Wordle, and Tic-Tac-Toe. Built for seamless play across all devices.",
     longBody:
       "PO Game Board is a user-friendly platform developed with React.js, JavaScript, and Tailwind CSS, bringing popular games like Snake, Wordle, and Tic-Tac-Toe together in a single interface. The goal of this project is to offer a fun, engaging gaming experience accessible on any device. The app’s responsive design ensures smooth interaction on both desktop and mobile, thanks to Tailwind CSS for layout optimization. The component-based architecture of React enables easy updates and maintenance, making the platform flexible for future game additions. Each game has been thoughtfully designed to offer smooth, responsive feedback, contributing to an immersive user experience, regardless of screen size or device.",
-    imageUrl: "/pic/loading.png",
+    imageUrl: "/pic/game.png",
     links: [
       {
         name: "Deployed",
@@ -76,7 +101,7 @@ export const projects = [
       "A full-service website for Wimbledon Pets, showcasing dog care services and enhancing SEO visibility, migrated from Wix to Next.js for better performance and cost-efficiency.",
     longBody:
       "The Wimbledon Pets website is a full-featured platform showcasing various dog care services, including listings for dog walking, boarding, and sitting. Originally developed on Wix, this project was redeveloped in Next.js to improve site performance, flexibility, and reduce hosting costs by migrating to Netlify. The site includes a user-friendly services section, an About page highlighting the carers, client testimonials, a contact form, and an Instagram feed. Optimizing the site for SEO significantly improved search engine ranking, helping Wimbledon Pets attract more clients organically. This project demonstrates the benefits of moving from a drag-and-drop builder to a custom-coded solution, providing Wimbledon Pets with a scalable, professional online presence.",
-    imageUrl: "/pic/wimbledon-pets.png",
+    imageUrl: "/pic/pets.png",
     links: [
       {
         name: "Deployed",
@@ -101,7 +126,7 @@ export const projects = [
       "A recipe search platform enabling users to find recipes by name and filter results, creating a personalized food exploration experience.",
     longBody:
       "Taste Quest is an application that streamlines recipe discovery, making it easy for users to find specific recipes using names and filters like cuisine type, diet, and intolerances. The platform, powered by the Spoonacular API, is designed for food enthusiasts looking for inspiration with a personalized touch. Developed with Tailwind CSS and Figma for a modern UI, the design focuses on accessibility across all devices. Working in collaboration with Mindera Code Academy peers, this project also emphasized teamwork and agile development principles. Taste Quest stands out as a final project that highlights the importance of a polished, user-centered design to deliver an enjoyable browsing experience, accessible from any device.",
-    imageUrl: "/pic/loading.png",
+    imageUrl: "/pic/taste.png",
     links: [
       {
         name: "Deployed",
@@ -145,31 +170,7 @@ export const projects = [
       },
     ],
   },
-  {
-    name: "Portfolio Banner",
-    shortBody:
-      "An animated banner created with Framer for React, showcasing creativity and animation skills in web design.",
-    longBody:
-      "The Portfolio Banner project is my first venture into creating dynamic animations using Framer with React. This animated banner, intended for use as a portfolio highlight, showcases interactive and animated design, adding a modern twist to web interfaces. The project pushed my skills in frontend animation and honed my understanding of how animations can improve user experience and engagement. This banner not only demonstrates my technical skills but also reflects my passion for merging creativity with functionality in web design.",
-    imageUrl: "/pic/loading.png",
-    links: [
-      {
-        name: "Portfolio",
-        href: "https://porlowska.dev",
-        icon: SiAwwwards,
-      },
-      {
-        name: "GitHub",
-        href: "https://github.com/porlowska/portfolio",
-        icon: FaGithub,
-      },
-      {
-        name: "Linkedin",
-        href: "https://www.linkedin.com/posts/polly-orlowska_webdesign-animation-react-activity-7262159876913557505-dIRS?utm_source=share&utm_medium=member_desktop",
-        icon: FaLinkedinIn,
-      },
-    ],
-  },
+
   {
     name: "Yugen",
     shortBody:
@@ -201,7 +202,7 @@ export const projects = [
       "As lead developer, I’m shaping EULE Club’s entire front-end strategy with branding and Figma designs.",
     longBody:
       "At EULE Club, I serve as the lead developer, responsible for implementing a comprehensive front-end strategy. This project includes branding creation, which involved developing a cohesive color palette, typography, and social media assets. After finalizing the branding, I crafted intuitive Figma designs that enhance user experience and ensure a seamless look across all platforms. Each page, from the homepage to the sponsorship and event pages, is developed with a mobile-first approach in Next.js, ensuring responsiveness and scalability. EULE Club’s platform is structured to support dynamic content, CMS integration, and e-commerce features as the business grows.",
-    imageUrl: "/pic/loading.png",
+    imageUrl: "/pic/eule.png",
     links: [
       {
         name: "Deployed",
@@ -230,7 +231,7 @@ export const projects = [
     links: [
       {
         name: "Deployed",
-        href: "",
+        href: "https://www.i-woman.org.uk/",
         icon: SiAwwwards,
       },
       {
@@ -240,7 +241,7 @@ export const projects = [
       },
       {
         name: "Linkedin",
-        href: "",
+        href: "https://www.linkedin.com/company/i-womanorguk/posts/?feedView=all",
         icon: FaLinkedinIn,
       },
     ],
@@ -251,11 +252,11 @@ export const projects = [
       "A temporary landing page to inform users of the i-woman site’s development, reducing hosting costs.",
     longBody:
       "The i-woman landing page serves as a placeholder to communicate the site’s ongoing development. This temporary page is a self-managed project that reduces hosting costs by limiting server usage. It offers an essential communication tool for the business while maintaining online presence during the construction phase. Built entirely in-house, this landing page demonstrates the company’s commitment to transparency with its users and allows i-woman to retain a cost-effective digital presence while the full platform is in development.",
-    imageUrl: "/pic/loading.png",
+    imageUrl: "/pic/woman.png",
     links: [
       {
         name: "Deployed",
-        href: "",
+        href: "https://www.i-woman.org.uk/",
         icon: SiAwwwards,
       },
       {
@@ -265,7 +266,7 @@ export const projects = [
       },
       {
         name: "Linkedin",
-        href: "",
+        href: "https://www.linkedin.com/company/i-womanorguk/posts/?feedView=all",
         icon: FaLinkedinIn,
       },
     ],
