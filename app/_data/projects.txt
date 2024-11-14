@@ -1,0 +1,315 @@
+export const projects = [
+  {
+    name: " Project name",
+    shortBody: "Laborum quis quam.",
+    longBody: "Laborum quis quam.",
+    imageUrl: "/pic/loading.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
+    name: " Project name",
+    shortBody: "Laborum quis quam.",
+    longBody: "Laborum quis quam.",
+    imageUrl: "/pic/loading.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
+    name: "EULE - under construction ",
+    shortBody: "Coming soon",
+    longBody: "Coming soon ",
+    imageUrl: "/pic/loading.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "eule.pro",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
+    name: "PO Game Board",
+    shortBody:
+      "This project brings together popular games like Snake, Wordle, and Tic-Tac-Toe in a single platform, built to deliver an engaging, seamless gaming experience across devices.",
+    longBody:
+      "This project brings together popular games like Snake, Wordle, and Tic-Tac-Toe in a single platform, built to deliver an engaging, seamless gaming experience across devices. It is a user-friendly gaming platform developed with React.js, JavaScript, and Tailwind CSS, deployed on Netlify. The app features a polished UI, ensuring each game is easy to navigate, engaging, and responsive, regardless of the device. The goal was to create an interactive, cross-platform experience where users can jump in and enjoy familiar games anytime, anywhere. Responsive Design & Cross-Device Compatibility: Using Tailwind CSS, I developed a responsive layout optimized for both mobile and desktop, ensuring a cohesive user experience.Frontend Development with React.js: React was central to this project, allowing for efficient component-based architecture and making updates or game additions a breeze. UI/UX Design: Focused on a clean, intuitive interface, prioritizing user interaction and easy navigation. Game Development Fundamentals: Each game integrates smooth, responsive interaction and feedback, designed for an immersive experience.",
+    imageUrl: "/pic/loading.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
+    name: "Wimbledon Pets on wix ",
+    shortBody:
+      "Led Wimbledon Pets' website development from start to finish using Wix, focusing on lead generation and brand awareness. The site features service listings, testimonials, and an Instagram feed, optimised for all devices. Enhanced SEO led to increased visibility and sales, receiving praise for its professionalism. Achieved 60% marketing cost savings.",
+    longBody:
+      "Led Wimbledon Pets' website development from start to finish using Wix, focusing on lead generation and brand awareness. The site features service listings, testimonials, and an Instagram feed, optimised for all devices. Enhanced SEO led to increased visibility and sales, receiving praise for its professionalism. Achieved 60% marketing cost savings.",
+    imageUrl: "/pic/wimbledon-pets.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "https://wimbledonpets.wixsite.com/wimbledon-pets",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "https://wimbledonpets.wixsite.com/wimbledon-pets",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "https://www.linkedin.com/posts/polly-orlowska_it-took-me-some-time-to-finally-post-about-activity-7157833224155484161-Pemr?utm_source=share&utm_medium=member_desktop",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
+    name: "Career Keys",
+    shortBody:
+      "Career Keys is a dynamic job application enhancement tool designed to streamline the job search process. By aggregating job listings from multiple sources and utilizing advanced keyword extraction, it empowers users to tailor their resumes with precision, ensuring a perfect match with job requirements. Inspired by the need for efficiency in job hunting, it offers a user-friendly interface for an optimized job application experience.",
+    longBody:
+      "Career Keys is a dynamic job application enhancement tool designed to streamline the job search process. By aggregating job listings from multiple sources and utilizing advanced keyword extraction, it empowers users to tailor their resumes with precision, ensuring a perfect match with job requirements. Inspired by the need for efficiency in job hunting, it offers a user-friendly interface for an optimized job application experience.",
+    imageUrl: "/pic/career-keys.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "https://career-keys.netlify.app/",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/porlowska/career-keys",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "https://www.linkedin.com/feed/update/urn:li:activity:7165374145281642498/",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+  {
+    name: " Yugen",
+    shortBody:
+      "A travel inspiration platform that allows users to experience the deeper connections between cultures, landscapes, and personal growth on every journey. We were inspired by the desire to offer a platform that acts as a precursor to traditional travel planning, offering users a more profound connection with the places they visit.",
+    longBody:
+      "A travel inspiration platform that allows users to experience the deeper connections between cultures, landscapes, and personal growth on every journey. We were inspired by the desire to offer a platform that acts as a precursor to traditional travel planning, offering users a more profound connection with the places they visit.",
+    imageUrl: "/pic/yugen.png",
+    links: [
+      {
+        name: "Deployed",
+        href: "https://tejpatta.github.io/Travel-Inspiration/",
+        icon: SiAwwwards,
+      },
+      {
+        name: "GitHub",
+        href: "https://github.com/tejpatta/Travel-Inspiration",
+        icon: FaGithub,
+      },
+      {
+        name: "Linkedin",
+        href: "https://www.linkedin.com/posts/polly-orlowska_im-happy-to-share-this-y%C5%ABgen-project-activity-7149071868497391616-WXcm?utm_source=share&utm_medium=member_desktop",
+        icon: FaLinkedinIn,
+      },
+    ],
+  },
+];
+
+
+
+1. I woman  social page  (under construction )
+As a Frontend Developer at i-woman, I’ve had the opportunity to expand my skills beyond the front end and dive into full-stack development, significantly enhancing my technical abilities and contributing to an impactful user experience on our platform.
+
+Key Contributions:
+
+- Frontend Development: Designed and implemented the homepage, Contact Us page, and Meet the Team page with a focus on a clean, user-friendly layout.
+
+- Backend Integration: Built POST and GET API calls for APIs, allowing for real-time team updates and dynamic form submissions. This experience gave me a solid foundation in full-stack development. Integrated Microsoft Graph API.
+
+- Reusable Components: Created scalable components with dynamic props in TypeScript, ensuring consistency and reusability across the site. TypeScript helped clarify requirements, making components reliable and well-organised.
+
+- API Integration Skills: Strengthened my skills in REST API integration, learning how to manage data fetching, error handling, and asynchronous operations effectively.
+
+2. i-woman (under construction )
+- creation a page that will be a landing temporary page, to inform people that our page is being design, I will breati ti all by myself and deploy to production  it is very important art of the business to have that when the website is under construction, what more, it will allow us to save onhosting costs. 
+
+3. EULE Club · ContractEULE Club · Contract
+Oct 2024 - Present · 2 mosOct 2024 to Present · 2 mos
+London Area, United Kingdom · RemoteLondon Area, United Kingdom · Remote
+As the lead web developer at EULE Club, I’m responsible for shaping and executing the entire front-end strategy. I developed a structured approach that begins with branding, progresses through Figma wireframes and high-fidelity designs, finished by page-by-page development in Next.js.
+
+- Branding & UI Design: Created a cohesive branding kit with, colour palette, typography, marketing materials and Social Media kit, then crafted intuitive Figma designs to enhance user experience.
+
+- Responsive Development: Developed the homepage, team page, sponsorship page, and event page with a responsive, mobile-first approach, ensuring consistency with EULE’s brand identity.
+
+- Scalable Structure: Built a flexible foundation that allows for future enhancements like dynamic content, CMS integration, and e-commerce functionality, enabling EULE Club to grow effortlessly.
+
+3. 
+PO Game Board
+https://po-game-board.netlify.app
+https://github.com/porlowska/game-board
+https://www.linkedin.com/posts/polly-orlowska_reactjs-javascript-frontenddeveloper-activity-7260297394276257792-m-My?utm_source=share&utm_medium=member_desktop
+
+PO Game Board
+Oct 2024 - Nov 2024Oct 2024 - Nov 2024
+This project brings together popular games like Snake, Wordle, and Tic-Tac-Toe in a single platform, built to deliver an engaging, seamless gaming experience across devices.
+
+is a user-friendly gaming platform developed with React.js, JavaScript, and Tailwind CSS, deployed on Netlify. The app features a polished UI, ensuring each game is easy to navigate, engaging, and responsive, regardless of the device. The goal was to create an interactive, cross-platform experience where users can jump in and enjoy familiar games anytime, anywhere.
+
+Responsive Design & Cross-Device Compatibility: Using Tailwind CSS, I developed a responsive layout optimized for both mobile and desktop, ensuring a cohesive user experience.
+Frontend Development with React.js: React was central to this project, allowing for efficient component-based architecture and making updates or game additions a breeze.
+UI/UX Design: Focused on a clean, intuitive interface, prioritizing user interaction and easy navigation.
+Game Development Fundamentals: Each game integrates smooth, responsive interaction and feedback, designed for an immersive experience.
+This project brings together popular games like Snake, Wordle, and Tic-Tac-Toe in a single platform, built to deliver an engaging, seamless gaming experience across devices. is a user-friendly gaming platform developed with React.js, JavaScript, and Tailwind CSS, deployed on Netlify. The app features a polished UI, ensuring each game is easy to navigate, engaging, and responsive, regardless of the device. The goal was to create an interactive, cross-platform experience where users can jump in and enjoy familiar games anytime, anywhere. Responsive Design & Cross-Device Compatibility: Using Tailwind CSS, I developed a responsive layout optimized for both mobile and desktop, ensuring a cohesive user experience. Frontend Development with React.js: React was central to this project, allowing for efficient component-based architecture and making updates or game additions a breeze. UI/UX Design: Focused on a clean, intuitive interface, prioritizing user interaction and easy navigation. Game Development Fundamentals: Each game integrates smooth, responsive interaction and feedback, designed for an immersive experience.
+Skills: React.js · JavaScript · JavaScript eXtension (JSX) · Tailwind CSS · Netlify · Responsive Web Design · Web Design
+
+4. Wimbledon pets coded website
+https://www.linkedin.com/posts/polly-orlowska_frontenddevelopment-webdevelopment-nextjs-activity-7261814173423038464-rl-p?utm_source=share&utm_medium=member_desktop
+wimbledon-pets.co.uk
+https://github.com/porlowska/wimbledon-pets
+Wimbledon Pets website
+Wimbledon Pets website
+Nov 2024 - Nov 2024Nov 2024 - Nov 2024
+Associated with Wimbledon Pets
+The Wimbledon Pets website is a user-friendly platform built to showcase the range of dog care services offered. It features a detailed services listing, an about section introducing company, and dog carers, client testimonials, a contact form for easy inquiries. With responsive design optimized for all devices, the site ensures a seamless experience for users, whether on desktop or mobile. Enhanced for SEO, Wimbledon Pets ranks higher on Google, improving visibility and client engagement.
+
+As a developer & founder for Wimbledon Pets, I decided to redevelop the website, transitioning from a Wix-based setup to a fully coded Next.js application deployed on Netlify. This move brought significant benefits both in performance and cost-efficiency. By eliminating Wix hosting fees, we reduced hosting costs to zero, and by optimizing the site for SEO, Wimbledon Pets now ranks higher on Google, resulting in lower marketing and advertising expenses.
+
+The new site is optimized for seamless navigation on all devices, improving user satisfaction and accessibility for clients looking to book dog care services on the go. With a polished, responsive UI and improved performance, Wimbledon Pets has not only enhanced its brand presence but also improved customer experience, contributing to greater engagement and growth.
+
+This project underscores the advantages of a custom-coded environment in Next.js, providing Wimbledon Pets with a cost-effective, scalable, and user-friendly solution for their digital presence.
+As a developer & founder for Wimbledon Pets, I decided to redevelop the website, transitioning from a Wix-based setup to a fully coded Next.js application deployed on Netlify. This move brought significant benefits both in performance and cost-efficiency. By eliminating Wix hosting fees, we reduced hosting costs to zero, and by optimizing the site for SEO, Wimbledon Pets now ranks higher on Google, resulting in lower marketing and advertising expenses. The new site is optimized for seamless navigation on all devices, improving user satisfaction and accessibility for clients looking to book dog care services on the go. With a polished, responsive UI and improved performance, Wimbledon Pets has not only enhanced its brand presence but also improved customer experience, contributing to greater engagement and growth. This project underscores the advantages of a custom-coded environment in Next.js, providing Wimbledon Pets with a cost-effective, scalable, and user-friendly solution for their digital presence.
+Skills: Front-End Development · Next JS · TypeScript · Responsive Web Design · Search Engine Optimization (SEO) · Web Development
+
+5.Taste Quest:
+https://taste-quest.netlify.app
+https://www.linkedin.com/posts/polly-orlowska_project-showcase-taste-quest-application-activity-7236326065042862080-6JTT?utm_source=share&utm_medium=member_desktop
+https://github.com/porlowska/Taste-Quest
+Taste Quest
+Taste Quest
+Jul 2024 - Aug 2024Jul 2024 - Aug 2024
+
+Associated with Mindera Code Academy - UK
+Associated with Mindera Code Academy - UK
+🚀 Project Showcase: Taste Quest Application 🚀
+Taste Quest is a user-friendly website designed to help food enthusiasts find recipes quickly based on recipe names. Powered by the Spoonacular API, Taste Quest allows users to search for recipes, apply filters like category, cuisine, diet, and intolerances, and view a full recipe in a clean, intuitive layout. The application is optimised for all devices, ensuring users can search for their favourite recipes on any device at any time.
+
+Here’s what we accomplished:
+
+🎨 Design & Prototyping: We used Figma to create an intuitive and visually appealing user interface. From wireframes to final prototypes, every detail was meticulously crafted to ensure a seamless user experience.
+
+💻 Frontend Development: Implementing the design with Tailwind CSS allowed us to rapidly develop a responsive and modern UI. The utility-first framework was a game-changer in maintaining consistency and flexibility throughout the project.
+
+🤝 Team Collaboration: Working closely with Hanna, we tackled challenges together, from brainstorming features to solving complex coding problems. Our teamwork ensured that the project met all our objectives and was completed on time.
+
+🎓 Final Project: This application was not just another assignment; it was the culmination of our learning journey at Mindera Code Academy. We’re proud to have created something that showcases the skills and knowledge we’ve acquired over the course of the BootCamp.
+
+#WebDevelopment #TailwindCSS #Figma #Teamwork #BootCampProject #WebDesign #FrontendDevelopment #MinderaCodeAcademy
+🚀 Project Showcase: Taste Quest Application 🚀 Here’s what we accomplished: 🎨 Design & Prototyping: We used Figma to create an intuitive and visually appealing user interface. From wireframes to final prototypes, every detail was meticulously crafted to ensure a seamless user experience. 💻 Frontend Development: Implementing the design with Tailwind CSS allowed us to rapidly develop a responsive and modern UI. The utility-first framework was a game-changer in maintaining consistency and flexibility throughout the project. 🤝 Team Collaboration: Working closely with Hanna, we tackled challenges together, from brainstorming features to solving complex coding problems. Our teamwork ensured that the project met all our objectives and was completed on time. 🎓 Final Project: This application was not just another assignment; it was the culmination of our learning journey at Mindera Code Academy. We’re proud to have created something that showcases the skills and knowledge we’ve acquired over the course of the BootCamp. #WebDevelopment #TailwindCSS #Figma #Teamwork #BootCampProject #WebDesign #FrontendDevelopment #MinderaCodeAcademy
+Skills: Responsive Web Design · Figma (Software) · Tailwind CSS · Web Design · Next JS · React.js · Web Services API
+
+6. Portfolio Banner:
+porlowska.dev
+https://github.com/porlowska/portfolio
+https://www.linkedin.com/posts/polly-orlowska_webdesign-animation-react-activity-7262159876913557505-dIRS?utm_source=share&utm_medium=member_desktop
+👏 After countless hours of sweat, tears, and finger cramps, my first project with Framer is here! 🥰 
+
+
+I’m beyond excited (we’re talking full-body tingles!) to share my first animated banner created with Framer for React! 🎥✨
+
+
+This project has been such a labor of love. I’ve poured my passion into every detail, pushing through the challenges and discovering so much along the way. Animation brings a whole new dimension to web design, and I can’t wait to keep diving deeper.
+
+I’m thrilled to share this journey with the LinkedIn community and hear your thoughts on this first creation. Here’s to more animations, more creativity, and more learning! 🥂 
+
+hashtag#WebDesign hashtag#Animation hashtag#React hashtag#Framer hashtag#CreativePassion hashtag
+
+7. 
+Polly Orlowska - Portfolio
+
+Polly Orlowska - Portfolio
+https://porlowska.netlify.app
+https://www.linkedin.com/posts/polly-orlowska_webdevelopment-uiuxdesign-reactjs-activity-7203350969126940672-LW8-?utm_source=share&utm_medium=member_desktop
+https://github.com/porlowska/portfolio
+Jun 2024 - Jun 2024Jun 2024 - Jun 2024
+As a passionate web developer, I created a portfolio to showcase my technical skills and provide an engaging experience for potential recruiters. Built with React JS, Next JS, and JavaScript, and hosted on Netlify, this site highlights my projects and design process. It aims to demonstrate my skills in front-end technologies and deliver user-friendly web solutions.
+As a passionate web developer, I created a portfolio to showcase my technical skills and provide an engaging experience for potential recruiters. Built with React JS, Next JS, and JavaScript, and hosted on Netlify, this site highlights my projects and design process. It aims to demonstrate my skills in front-end technologies and deliver user-friendly web solutions.
+Skills: React.js · Next.js · JavaScript eXtension (JSX) · Responsive Web Design · Tailwind CSS · Component Development · User Experience (UX)
+As a passionate web developer, I created a portfolio to showcase my technical skills and provide an engaging experience for potential recruiters. Built with React JS, Next JS, and JavaScript, and hosted on Netlify, this site highlights my projects and design process. It aims to demonstrate my skills in front-end technologies and deliver user-friendly web solutions.
+
+8. Career Keys
+https://career-keys.netlify.app
+https://github.com/porlowska/career-keys
+https://www.linkedin.com/posts/polly-orlowska_newproject-activity-7165374145281642498-hiEd?utm_source=share&utm_medium=member_desktop
+
+Career Keys - keyword enhancer for job application
+Career Keys is a dynamic job application enhancement tool designed to streamline the job search process. By aggregating job listings from multiple sources and utilizing advanced keyword extraction, it empowers users to tailor their resumes with precision, ensuring a perfect match with job requirements. Inspired by the need for efficiency in job hunting, it offers a user-friendly interface for an optimized job application experience.
+Career Keys - keyword enhancer for job application
+Jan 2024 - Feb 2024Jan 2024 - Feb 2024
+
+Associated with edX
+Associated with edX
+Embarking on the development of Career Keys, we aimed to create a solution that not only aligns job seekers' resumes with the expectations of employers and expected keywords used in ATS but also elevates the overall job application experience. Career Keys emerged from a simple yet profound need: to bridge the gap between the skills job seekers possess and the qualifications employers seek. This user-focused single-page application, built with React and Node.js, leverages the power of AI for keyword extraction, offering job seekers a competitive edge by enhancing their resumes with the keywords from job descriptions.
+
+Our clear objective was to develop a platform that could extract keywords from job listings, enabling users to customise their applications effortlessly. The choice of React and Node.js aimed at delivering a responsive, single-page application that offers a seamless and user-friendly experience across all devices. Despite the diverse backgrounds and limited time availability of our team members, we managed to navigate the complexities of development with a strategic division of tasks that leveraged each member's strengths and preferences.
+
+Our successes along this journey have been many, from creating an intuitive user experience to seamlessly integrating external APIs. These milestones were not only a testament to our team's hard work and dedication but also a validation of the impact Career Keys has on the job application process. The project not only met our objectives, proving that with the right technology and a user-centric approach, we can significantly improve the way job seekers connect with potential employers.
+
+Career Keys shows can be achieved when innovation meets determination. By addressing the challenges of the job application process, we've created a platform that simplifies resume customisation and empowers job seekers to present themselves in the best light possible, maximising their chances of success in the competitive job market.
+Embarking on the development of Career Keys, we aimed to create a solution that not only aligns job seekers' resumes with the expectations of employers and expected keywords used in ATS but also elevates the overall job application experience. Career Keys emerged from a simple yet profound need: to bridge the gap between the skills job seekers possess and the qualifications employers seek. This user-focused single-page application, built with React and Node.js, leverages the power of AI for keyword extraction, offering job seekers a competitive edge by enhancing their resumes with the keywords from job descriptions. Our clear objective was to develop a platform that could extract keywords from job listings, enabling users to customise their applications effortlessly. The choice of React and Node.js aimed at delivering a responsive, single-page application that offers a seamless and user-friendly experience across all devices. Despite the diverse backgrounds and limited time availability of our team members, we managed to navigate the complexities of development with a strategic division of tasks that leveraged each member's strengths and preferences. Our successes along this journey have been many, from creating an intuitive user experience to seamlessly integrating external APIs. These milestones were not only a testament to our team's hard work and dedication but also a validation of the impact Career Keys has on the job application process. The project not only met our objectives, proving that with the right technology and a user-centric approach, we can significantly improve the way job seekers connect with potential employers. Career Keys shows can be achieved when innovation meets determination. By addressing the challenges of the job application process, we've created a platform that simplifies resume customisation and empowers job seekers to present themselves in the best light possible, maximising their chances of success in the competitive job market.
+Skills: Tailwind CSS · Organization Skills · Git · JavaScript eXtension (JSX) · JavaScript · Time Management · Responsive Web Design · Node.js · Collaborative Environment · UI/UX · Team Leadership · React.js · Code Review · Easily Adaptable · Flexible Approach · Teamwork · HTML5 · GitHubhttps://github.com/porlowska/career-keys
