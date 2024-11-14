@@ -48,9 +48,8 @@ const Description = () => {
                 What do I Bring to the Table?
               </h3>
               {about.features.map((feat, index) => (
-                <li className="flex gap-x-3">
+                <li className="flex gap-x-3" key={index}>
                   <FaReact
-                    key={index}
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-secondary"
                   />

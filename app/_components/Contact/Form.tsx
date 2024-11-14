@@ -1,6 +1,7 @@
+
+import toast, { Toaster } from "react-hot-toast";
 import Input from "./form/Input";
 import Textarea from "./form/Textarea";
-import toast, { Toaster } from "react-hot-toast";
 
 const Form = () => {
   return (
